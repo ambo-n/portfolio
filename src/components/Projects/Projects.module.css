@@ -1,0 +1,67 @@
+@import "../../vars.css";
+
+.projects {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  padding: 3rem 0;
+  background-color: #f8f8f8;
+}
+
+.projectsContainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.projectDescription {
+  flex: 1 1 30%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.projectDescription h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projectDescription p {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.demo {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 50%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.videoContainer {
+  flex: 1;
+  overflow: hidden;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.demo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.demo a {
+  text-decoration: none;
+  margin: 10px 0;
+  font-size: 1rem;
+  padding-right: 3rem;
+  text-align: center;
+}
+
+.demo a:hover {
+  text-decoration: underline;
+}

@@ -9,6 +9,7 @@ import "@fontsource/lato";
 import "@fontsource/mogra";
 
 import { NavBar } from "./components/NavBar/NavBar";
+import { AboutPage } from "./components/About/AboutPage.jsx";
 
 const Layout = () => {
   return (
@@ -25,7 +26,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
-    children: [{ path: "/", element: <App /> }],
+    children: [
+      { path: "/", element: <App /> },
+      { path: "/about", element: <AboutPage /> },
+    ],
   },
 ]);
 
