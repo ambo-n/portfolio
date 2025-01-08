@@ -1,0 +1,71 @@
+@import "../../vars.css";
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 2;
+  padding: 1rem;
+  background-color: rgb(37, 36, 36);
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItems {
+  display: flex;
+  gap: 47px;
+  list-style: none;
+}
+
+.menuItems a {
+  font-size: 16px;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+}
+.logo {
+  width: 60px;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+
+  .menuItems {
+    position: absolute;
+    flex-direction: column;
+    display: none;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: black;
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+}

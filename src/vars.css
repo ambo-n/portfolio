@@ -1,0 +1,11 @@
+:root {
+  /* Colours */
+  --color-text: #fff;
+  --color-primary: #8fdcc2;
+  --color-secondary: #165b44;
+  --color-dark: #0e2928;
+  --color-bg: #122926;
+
+  /* FOnt */
+  --font-lato: "Lato";
+}
