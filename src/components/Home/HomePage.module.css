@@ -32,3 +32,10 @@ p {
 .arrow {
   width: 50px;
 }
+
+@media (max-width: 545px) {
+  .HomePage h1 {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+}
