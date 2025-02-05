@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import styles from "./ContactForm.module.css";
 
 export const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -35,14 +36,19 @@ export const ContactForm = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
+    <div className={styles.ContactForm}>
+      <form ref={form} onSubmit={sendEmail}>
+        <h1> Contact Me</h1>
+        <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <button type="submit" value="Send">
+          Send me a message
+        </button>
+      </form>
+    </div>
   );
 };
