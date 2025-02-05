@@ -6,7 +6,8 @@ export const allProjects = [
   {
     title: "Weather App",
     image: weather,
-    description: "This is a project made to analyse the weather data.",
+    description:
+      "Weather App is a python project that defines a set of functions to efficiently load, process, and generate summaries of weather data for analysis and visualization.",
     languages: ["Python"],
     github: "https://github.com/ambo-n/weather-project",
     site: "",
@@ -14,7 +15,8 @@ export const allProjects = [
   {
     title: "Sprout (Front End)",
     image: crowdfunding,
-    description: "This is crowding funding project nice nice nice",
+    description:
+      "Sprout is a full-stack crowdfunding platform built with a Python/Django backend and a JavaScript/React frontend. Explore the frontend codes and its deployed site here.",
     languages: ["React", "JavaScript"],
     github: "https://github.com/ambo-n/sprout",
     site: "https://ambon-sprout.netlify.app/",
@@ -22,17 +24,28 @@ export const allProjects = [
   {
     title: "Sprout (Back End)",
     image: crowdfunding,
-    description: "TThis is crowding funding project nice nice nice",
+    description:
+      "Sprout is a full-stack crowdfunding platform built with a Python/Django backend and a JavaScript/React frontend. Explore the backend codes and its deployed site here.",
     languages: ["Python", "Django"],
-    github: "https://github.com/ambo-n/sprout",
-    site: "https://ambon-sprout.netlify.app/",
+    github: "https://github.com/ambo-n/crowdfunding_back_end",
+    site: "https://sprout-ambon-63b8f1ecb262.herokuapp.com/projects/",
   },
   {
-    title: "Furfuture Funding",
+    title: "Furfuture Funding (Frontend)",
     image: furfuture,
-    description: "This is crowding funding project nice nice nice",
-    languages: ["Python", "Django", "React", "JavaScript"],
+    description:
+      "FurFuture funding is a scholarship directory which connects diverse individuals with tailored scholarships. Explore the frontend code and deployed site here.",
+    languages: ["React", "JavaScript"],
     github: "https://github.com/SheCodesAus/ramcats_frontend",
     site: "https://furfuturefunding.netlify.app/",
+  },
+  {
+    title: "Furfuture Funding (Backend)",
+    image: furfuture,
+    description:
+      "FurFuture funding is a scholarship directory which connects diverse individuals with tailored scholarships. Explore the backend code and deployed site here.",
+    languages: ["Python", "Django"],
+    github: "https://github.com/SheCodesAus/ramcats_frontend",
+    site: "https://furfuture-e6caaf72373d.herokuapp.com/opportunities/",
   },
 ];
