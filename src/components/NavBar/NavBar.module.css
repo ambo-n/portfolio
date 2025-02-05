@@ -22,7 +22,7 @@
 
 .menuItems a {
   font-size: 16px;
-  color: var(--color-text);
+  color: white;
   text-decoration: none;
 }
 

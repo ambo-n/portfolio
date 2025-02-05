@@ -1,10 +1,10 @@
 :root {
   /* Colours */
-  --color-text: #fff;
+  --color-text: black;
   --color-primary: #8fdcc2;
   --color-secondary: #165b44;
   --color-dark: #0e2928;
-  --color-bg: #122926;
+  --color-bg: hsl(168, 24%, 96%);
 
   /* FOnt */
   --font-lato: "Lato";

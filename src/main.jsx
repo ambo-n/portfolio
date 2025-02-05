@@ -11,6 +11,8 @@ import "@fontsource/mogra";
 
 import { NavBar } from "./components/NavBar/NavBar";
 import { AboutPage } from "./components/About/AboutPage.jsx";
+import Notes from "./components/Note/Notes";
+import ContactPage from "./components/Contact/ContactPage";
 
 const Layout = () => {
   return (
@@ -30,6 +32,8 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <App /> },
       { path: "/about", element: <AboutPage /> },
+      { path: "/notes", element: <Notes /> },
+      { path: "/contact", element: <ContactPage /> },
     ],
   },
 ]);

@@ -11,11 +11,10 @@ export const HomePage = () => {
       <p className={styles.description}>
         An early-career developer passionate about creating impactful solutions.
       </p>
-      <div>
+      <div className={styles.projectnav}>
         <p>View my recent projects</p>
         <img src={arrow} className={styles.arrow} />
       </div>
-
       <ParticleComponent />
     </div>
   );
