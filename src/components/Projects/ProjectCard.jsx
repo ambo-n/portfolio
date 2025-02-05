@@ -33,13 +33,21 @@ function ProjectCard({ projectData }) {
           </HStack>
         </Card.Body>
         <Card.Footer>
-          <Button href={projectData.github} padding="6px">
-            Source Code on Github
-          </Button>
+          <a
+            href={projectData.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button padding="6px">Source Code on Github</Button>
+          </a>
           {projectData.site ? (
-            <Button href={projectData.site} padding="6px">
-              Deployed Site
-            </Button>
+            <a
+              href={projectData.site}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button padding="6px">Deployed Site</Button>
+            </a>
           ) : null}
         </Card.Footer>
       </Box>
