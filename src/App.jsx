@@ -2,7 +2,8 @@ import styles from "./App.module.css";
 import { HomePage } from "./components/Home/HomePage";
 import { NavBar } from "./components/NavBar/NavBar";
 import ProjectPage from "./components/Projects/ProjectPage";
-import ContactPage from "./components/Contact/ContactPage";
+import { ContactForm } from "./components/Contact/ContactForm";
+import Footer from "./components/Footer/Footer";
 // import { Projects } from "./components/Projects/Projects";
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
     <div className={styles.App}>
       <HomePage />
       <ProjectPage />
-      <ContactPage />
+      <ContactForm />
     </div>
   );
 }

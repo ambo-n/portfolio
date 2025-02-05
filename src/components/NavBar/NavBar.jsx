@@ -33,9 +33,6 @@ export const NavBar = () => {
             <li>
               <Link to="/about">About</Link>
             </li>
-            {/* <li>
-              <Link to="/projects">Projects</Link>
-            </li> */}
             <li>
               <Link to="/notes">Notes</Link>
             </li>

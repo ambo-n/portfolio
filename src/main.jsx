@@ -13,6 +13,8 @@ import { NavBar } from "./components/NavBar/NavBar";
 import { AboutPage } from "./components/About/AboutPage.jsx";
 import Notes from "./components/Note/Notes";
 import ContactPage from "./components/Contact/ContactPage";
+import { ContactForm } from "./components/Contact/ContactForm";
+import Footer from "./components/Footer/Footer";
 
 const Layout = () => {
   return (
@@ -21,6 +23,7 @@ const Layout = () => {
       <main>
         <Outlet />
       </main>
+      <Footer />
     </div>
   );
 };
