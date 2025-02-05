@@ -6,7 +6,12 @@ function ProjectCard({ projectData }) {
   return (
     <Card.Root flexDirection="column" overflow="hidden">
       <Box display="flex" justifyContent="center">
-        <Image objectFit="cover" width="100%" src={projectData.image} />
+        <Image
+          objectFit="cover"
+          width="100px"
+          height="100px"
+          src={projectData.image}
+        />
       </Box>
       <Box margin={["1rem", "2rem"]}>
         <Card.Body>

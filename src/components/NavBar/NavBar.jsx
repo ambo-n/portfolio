@@ -3,8 +3,10 @@ import { Link, Outlet } from "react-router-dom";
 import styles from "./NavBar.module.css";
 import logo from "../../../assets/about/logo-w.png";
 import { Divide as Hamburger } from "hamburger-react";
+import { useNavigate } from "react-router-dom";
 
 export const NavBar = () => {
+  const navigate = useNavigate();
   const [isOpen, setOpen] = useState(false);
   return (
     <div>
@@ -13,6 +15,7 @@ export const NavBar = () => {
           className={styles.logo}
           src={logo}
           alt="A square with letters A and N on the right side of the square"
+          onClick={() => navigate("/")}
         />
         <div className={styles.menu}>
           <div className={styles.hamburger}>
