@@ -45,7 +45,7 @@ export const allProjects = [
     description:
       "FurFuture funding is a scholarship directory which connects diverse individuals with tailored scholarships. Explore the backend code and deployed site here.",
     languages: ["Python", "Django"],
-    github: "https://github.com/SheCodesAus/ramcats_frontend",
+    github: "https://github.com/SheCodesAus/ramcats_backend",
     site: "https://furfuture-e6caaf72373d.herokuapp.com/opportunities/",
   },
 ];
